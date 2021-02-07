@@ -11,15 +11,23 @@ assignees: ''
 
 ## :memo: Description
 <!-- What should the command do? -->
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 
 ## :speech_balloon: Aliases
-<!-- If the command can be called with different names e.g command, cmd, commands -->
-`Lorem`, `Ipsum`
+<!-- 
+
+If the command can be called with different names e.g command, cmd, commands 
+
+Please use markdown to add your alias(es): `Lorem`, `Ipsum`
+
+-->
 
 ## :passport_control: Permissions
-<!-- Should the command be accessable for everyone or just for a specific group of people? -->
-everyone, moderators, admins, own groups
+<!-- 
+Should the command be accessable for everyone or just for a specific group of people? 
 
-## :pencil2: Additional context
-Add any other context or screenshots about the command request here.
+Possible Permissions: everyone, moderators, admins, own groups
+
+-->
+
+## :pencil2: Additional Context
+<!-- Add any other context or screenshots about the command request here. -->

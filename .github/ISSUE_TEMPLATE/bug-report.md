@@ -22,8 +22,5 @@ assignees: ''
 ## :monocle_face: Expected behavior
 <!-- A clear and concise description of what you expected to happen. -->
 
-## :camera_flash: Screenshots
-<!-- If applicable, add screenshots to help explain your problem. -->
-
-## :pencil2: Additional context
+## :pencil2: Additional Context
 <!-- Add any other context about the problem here. -->
