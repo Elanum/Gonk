@@ -32,6 +32,3 @@ node_modules/
  
 # Build
 dist/
-
-# Husky
-.husky/_

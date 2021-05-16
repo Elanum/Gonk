@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "rm -rf dist/; tsc --build",
-    "dev": "tsnd --clear src/app.ts",
+    "dev": "tsnd --files --clear src/app.ts",
     "lint": "eslint . --fix",
     "start": "node dist/app.js",
     "prepare": "husky install"
@@ -26,6 +26,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
+    "discord-api-types": "^0.18.1",
     "discord.js": "github:discordjs/discord.js",
     "dotenv": "^9.0.2",
     "winston": "^3.3.3",
