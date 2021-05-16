@@ -1,8 +1,6 @@
-import {
-  Client, Intents, Interaction, Message,
-} from 'discord.js';
-import { onReady, onMessage, onInteraction } from './events';
-
+import { Intents, Interaction, Message } from 'discord.js';
+import { onInteraction, onMessage, onReady } from './events';
+import Client from './libs/client';
 import logger from './utils/logger';
 
 require('dotenv').config();
@@ -14,8 +12,8 @@ const client: Client = new Client({
 });
 
 client.on('ready', () => onReady(client));
-client.on('message', (message: Message) => onMessage(client, message));
-client.on('interaction', (interaction: Interaction) => onInteraction(interaction));
+client.on('message', (message: Message) => onMessage(message));
+client.on('interaction', (interaction: Interaction) => onInteraction(client, interaction));
 
 client
   .login(TOKEN)
