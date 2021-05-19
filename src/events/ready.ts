@@ -4,17 +4,18 @@ import logger from '../utils/logger';
 
 require('dotenv').config();
 
-const { TEST_SERVER = '' } = process.env;
+const { TEST_SERVER } = process.env;
 
 const onReady = async (client: Client): Promise<void> => {
-  commands.forEach((Cmd) => {
-    const cmd = new Cmd();
-    client.commands.set(cmd.name, cmd);
+  commands.forEach((Command) => {
+    const command = new Command();
+    client.commands.set(command.name, command);
   });
 
+  if (!TEST_SERVER) throw new Error('No TEST_SERVER defined!');
   await client.guilds.cache
     .get(TEST_SERVER)
-    ?.commands.set(client.commands.map((c) => c.commandData));
+    ?.commands.set(client.commands.map((c) => c.data));
 
   logger.info(`Loaded ${client.commands.size} commands!`);
   logger.debug(`Commands: ${client.commands.map((c) => c.name)}`);
