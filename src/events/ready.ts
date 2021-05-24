@@ -2,8 +2,6 @@ import commands from '../commands';
 import Client from '../libs/client';
 import logger from '../utils/logger';
 
-require('dotenv').config();
-
 const { TEST_SERVER } = process.env;
 
 const onReady = async (client: Client): Promise<void> => {

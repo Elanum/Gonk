@@ -3,8 +3,6 @@ import { onInteraction, onMessage, onReady } from './events';
 import Client from './libs/client';
 import logger from './utils/logger';
 
-require('dotenv').config();
-
 const { TOKEN, npm_package_version } = process.env;
 
 const client: Client = new Client({
