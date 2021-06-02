@@ -5,25 +5,13 @@ When contributing to this repository, please first discuss the change you whish 
 
 The following is a set of guideline for contributing to **Gonk**, which is hosted by [Elanum](https://elanum.de) on GitHub.
 
-#### Table Of Contents
-
-- [Code of Conduct](#code-of-conduct)
-- [I just have a question](#i-just-have-a-question-or-have-an-idea)
-- [How Can I Contribute?](#how-can-i-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Code Contribution](#code-contribution)
-    - [Git Workflow](#git-workflow)
-    - [Commits](#commits)
-- [License](#license)
-- [Additional Notes](#additional-notes)
-
 ## Code of Conduct
 This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/Elanum/Gonk/blob/develop/.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [mail@elanum.de](mailto:mail@elanum.de).
 
 ## I just have a question or have an idea!
 We use the [GitHub Discussions](https://github.com/Elanum/Gonk/discussions) for new ideas, questions or if you just want to share your **Gonk** experience!
 
-If you want to chat with other cool community members, you can join Elanum's [Discord](https://discord.gg/YV5pFwk)-Server and if you have coding-related questions you can use the `#dev-talk` channel!
+If you want to chat with other cool community members, you can join Elanum's [Discord](https://discord.gg/YV5pFwk)-Server!
 
 ## How Can I Contribute?
 ### Reporting Bugs
@@ -42,10 +30,11 @@ We use a modified version of [GitFlow](https://www.atlassian.com/git/tutorials/c
 
 If you want to contribute:
 1. Fork the repo and create your branch from `develop`
-2. If needed, update the documentation
-3. Test your code
-4. Make sure your code lints
-5. Create a pull request back to `develop`
+2. Implement your changes
+3. If needed, update the documentation
+4. Test your code
+5. Make sure your code lints
+6. Create a pull request back to `develop`
 
 #### Commits
 Since we're using [semantic-release](https://semantic-release.gitbook.io/) for automated versioning and changelog generation, please use [Conventional Commits](https://www.conventionalcommits.org/). 
@@ -61,7 +50,7 @@ feat: ✨ add cool feature`
 
 this feature makes everything better!
 
-closes: #1
+resolve: #1
 ```
 
 ## Licence
