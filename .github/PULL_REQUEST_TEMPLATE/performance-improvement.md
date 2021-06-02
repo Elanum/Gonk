@@ -8,9 +8,6 @@ Describe the exact performance improvement observed (for example, reduced time t
 
 -->
 
-## :white_check_mark: Verification
-<!-- Did you test the functionality? -->
-
 ## :warning: Possible Drawbacks
 <!-- What are the possible side-effects or negative impacts of the code change? -->
 

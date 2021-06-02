@@ -1,4 +1,5 @@
 ## :sparkles: Identify the Feature
+resolves: 
 <!-- 
 
 Link the issue describung the feature you updated or added
@@ -11,9 +12,6 @@ Examples:
 
 ## :memo: Description
 <!-- What did you update/add -->
-
-## :white_check_mark: Verification
-<!-- Did you test the functionality?-->
 
 ## :warning: Possible Drawbacks
 <!-- What are the possible side-effects or negative impacts of the code change? -->
